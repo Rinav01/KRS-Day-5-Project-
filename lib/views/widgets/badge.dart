@@ -4,7 +4,7 @@ class Badge extends StatelessWidget {
   final Widget child;
   final Widget label;
 
-  const Badge({required this.child, required this.label});
+  const Badge({super.key, required this.child, required this.label});
 
   @override
   Widget build(BuildContext context) {

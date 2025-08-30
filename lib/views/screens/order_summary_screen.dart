@@ -5,6 +5,8 @@ import '../../viewmodels/cart_provider.dart';
 class OrderSummaryScreen extends StatelessWidget {
   static const routeName = '/order-summary';
 
+  const OrderSummaryScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final cart = Provider.of<CartProvider>(context, listen: false);

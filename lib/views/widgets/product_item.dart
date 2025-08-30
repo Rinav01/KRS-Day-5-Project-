@@ -8,7 +8,7 @@ import '../screens/product_detail_screen.dart';
 class ProductItem extends StatelessWidget {
   final Product product;
 
-  ProductItem(this.product);
+  const ProductItem(this.product);
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +22,6 @@ class ProductItem extends StatelessWidget {
         );
       },
       child: GridTile(
-        child: Image.network(
-          product.imageUrl,
-          fit: BoxFit.cover,
-          errorBuilder: (context, error, stackTrace) => Icon(Icons.broken_image),
-        ),
         footer: GridTileBar(
           backgroundColor: Colors.black87,
           leading: IconButton(
@@ -85,6 +80,11 @@ class ProductItem extends StatelessWidget {
               }
             },
           ),
+        ),
+        child: Image.network(
+          product.imageUrl,
+          fit: BoxFit.cover,
+          errorBuilder: (context, error, stackTrace) => Icon(Icons.broken_image),
         ),
       ),
     );

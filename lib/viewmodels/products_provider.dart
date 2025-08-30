@@ -8,14 +8,14 @@ class ProductsProvider with ChangeNotifier {
       title: 'T-Shirt',
       description: 'A comfortable cotton T-shirt',
       price: 20.0,
-      imageUrl: 'https://picsum.photos/id/237/200/300', category: 'Clothes',
+      imageUrl: 'https://picsum.photos/id/75/200/300', category: 'Clothes',
     ),
     Product(
       id: 'p2',
       title: 'Sneakers',
       description: 'Stylish running shoes',
       price: 60.0,
-      imageUrl: 'https://picsum.photos/id/237/200/300', category: 'Shoes',
+      imageUrl: 'https://picsum.photos/id/75/200/300', category: 'Shoes',
     ),
   ];
 

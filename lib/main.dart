@@ -8,7 +8,7 @@ import 'package:krs_class_day5/views/screens/products_overview_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'viewmodels/products_provider.dart';
-import 'theme.dart'; // Import your custom theme file
+import 'theme.dart'; 
 
 void main() => runApp(MyApp());
 

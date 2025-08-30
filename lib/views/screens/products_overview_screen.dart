@@ -8,7 +8,10 @@ import '../widgets/product_item.dart';
 import '../widgets/badge.dart' as custom;
 
 class ProductsOverviewScreen extends StatefulWidget {
+  const ProductsOverviewScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ProductsOverviewScreenState createState() => _ProductsOverviewScreenState();
 }
 
